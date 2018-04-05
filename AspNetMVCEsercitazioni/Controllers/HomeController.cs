@@ -19,7 +19,10 @@ namespace AspNetMVCEsercitazioni.Controllers
 
 			return View();
 		}
-
+		public ActionResult PaginaMax()
+		{
+			return View();
+		}
 		public ActionResult Contact()
 		{
 			ViewBag.Message = "Your contact page.";
